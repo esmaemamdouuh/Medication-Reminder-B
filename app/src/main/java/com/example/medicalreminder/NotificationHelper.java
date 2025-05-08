@@ -28,7 +28,7 @@ public class NotificationHelper {
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
         Notification notification = new NotificationCompat.Builder(context, CHANNEL_ID)
-                .setSmallIcon(R.drawable.ic_medication)
+                .setSmallIcon(R.drawable.notification)
                 .setContentTitle("Medicine Added")
                 .setContentText("You added: " + medicineName + " at " + time)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)

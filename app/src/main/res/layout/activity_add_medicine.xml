@@ -8,18 +8,20 @@
     <EditText
         android:id="@+id/editMedicineName"
         android:layout_width="match_parent"
-        android:layout_height="67dp"
+        android:layout_height="wrap_content"
         android:hint="Medicine Name" />
 
     <TimePicker
         android:id="@+id/timePicker"
-        android:layout_width="wrap_content"
+        android:layout_width="329dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/btnSaveMedicine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Save Medicine"/>
+        android:text="Save Medicine"
+        android:backgroundTint="#4CAF50"
+        />
 </LinearLayout>
