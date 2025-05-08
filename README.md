@@ -1,6 +1,6 @@
 Medication Reminder
 
-A simple Android application designed to help users manage their medication schedule effectively. The app allows users to set reminders for taking medications and receive notifications at scheduled times. This project is developed using Java and Android Studio.
+    A simple Android application designed to help users manage their medication schedule effectively. The app allows users to set reminders for taking medications and receive notifications at scheduled times. This project is developed using Java and Android Studio.
 
 🚀 Features
 
